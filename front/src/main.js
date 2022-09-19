@@ -1,13 +1,13 @@
-// import { createApp, h } from 'vue'
-// import App from './App.vue'
-// import router from './router'
+import { createApp, h } from 'vue'
+import App from './App.vue'
+import router from './router'
 
 
-// import './style/index.scss'
+import './style/index.scss'
 
-// const app = createApp(App)
+const app = createApp(App)
 
-// app.use(router)
+app.use(router)
 
 // // new Vue({
 // //           router,
@@ -15,21 +15,21 @@
 // //          h => h(App)
 // // })
 
-// app.mount('#app')
-
-import App from './App.vue'
-// import Vue from 'vue'
-
-
-import './style/index.scss'
-
-const app = createApp(App)
-
-// app.use(router)
-
-
-
 app.mount('#app')
+
+// import App from './App.vue'
+// // import Vue from 'vue'
+
+
+// import './style/index.scss'
+
+// const app = createApp(App)
+
+// // app.use(router)
+
+
+
+// app.mount('#app')
 
 
 
